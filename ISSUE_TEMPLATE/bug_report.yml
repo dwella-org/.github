@@ -1,4 +1,3 @@
-# template for filing bug reports
 name: 🐛Bug Report
 description: File a bug report here
 title: "[BUG]: "
@@ -9,7 +8,6 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report 🤗
         Make sure there aren't any open/closed issues for this topic 😃
-
   - type: textarea
     id: bug-description
     attributes:
@@ -17,7 +15,6 @@ body:
       description: Give us a brief description of what happened and what should have happened
     validations:
       required: true
-
   - type: textarea
     id: steps-to-reproduce
     attributes:
